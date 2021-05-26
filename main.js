@@ -1,4 +1,4 @@
-alert("hi world");
+alert("Hi World, Welcome to my BlockChain MockUp");
 const gifId = document.getElementById("gif");
 const gif = document.querySelector(".gif");
 const gif2 = document.querySelector(".gif2");
@@ -148,7 +148,7 @@ let exploreUpdate = () => {
     if(exploreSlidePosition === 0) {
         exploreSlidePosition = totalExploreSlides - 1;
     } else {
-        exploreExchangeSlidePosition--;
+        exploreSlidePosition--;
     }
     exploreUpdate();   
 } 

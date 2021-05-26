@@ -66,6 +66,10 @@ body {
     position: relative;
 }
 
+.sideBar {
+    display: none;
+}
+
 .header {
     min-width: 100%;
     min-height: 100vh;
@@ -306,8 +310,8 @@ body {
 }
 
 .wallet-body img {
-    width: 25rem;
-    height: 25rem;
+    width: 20rem;
+    height: 20rem;
     align-self: center;
     object-fit: cover;
 }
@@ -330,8 +334,8 @@ body {
     margin-right: 1rem;
     width: 2.5rem;
     height: 2.5rem;
-    color: rgb(235, 88, 235);
-    border: 1px solid rgb(235, 88, 235);
+    color: rgba(34, 34, 240, 0.973);
+    border: 1px solid rgba(34, 34, 240, 0.973);
     border-radius: 0.5rem;
     cursor: pointer;
 }
@@ -343,8 +347,8 @@ body {
     font-size: 2rem;
     width: 2.5rem;
     height: 2.5rem;
-    color: rgb(235, 88, 235);
-    border: 1px solid rgb(235, 88, 235);
+    color: rgba(34, 34, 240, 0.973);
+    border: 1px solid rgba(34, 34, 240, 0.973);
     border-radius: 0.5rem;
     cursor: pointer;
 }
@@ -426,8 +430,8 @@ body {
 }
 
 .exchange-body img {
-    width: 25rem;
-    height: 25rem;
+    width: 20rem;
+    height: 20rem;
     align-self: center;
     object-fit: cover;
 }
@@ -449,8 +453,8 @@ body {
     margin-right: 1rem;
     width: 2.5rem;
     height: 2.5rem;
-    color: rgb(235, 88, 235);
-    border: 1px solid rgb(235, 88, 235);
+    color: rgba(75, 180, 75, 0.952);;
+    border: 1px solid rgba(75, 180, 75, 0.952);;
     border-radius: 0.5rem;
     cursor: pointer;
 }
@@ -462,8 +466,8 @@ body {
     font-size: 2rem;
     width: 2.5rem;
     height: 2.5rem;
-    color: rgb(235, 88, 235);
-    border: 1px solid rgb(235, 88, 235);
+    color: rgba(75, 180, 75, 0.952);;
+    border: 1px solid rgba(75, 180, 75, 0.952);;
     border-radius: 0.5rem;
     cursor: pointer;
 }
@@ -541,8 +545,8 @@ body {
 }
 
 .explorer-body img {
-    width: 25rem;
-    height: 25rem;
+    width: 20rem;
+    height: 20rem;
     align-self: center;
     object-fit: cover;
 }
@@ -589,16 +593,17 @@ body {
 
 .buy-info {
     width: 400px;
+    height: 80px;
     text-align: center;
 }
 
 .buy-info h1 {
     margin: 0.5rem 0;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .buy-info p {
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .indicator {
