@@ -31,6 +31,7 @@ gifId.addEventListener("mouseover", () => {
     gifId.classList.add("gif");
     gifBtn.style.display = "block";
 });
+alert("Hii");
 
 gifId.addEventListener("mouseout", () => {
     gifId.classList.remove("gif");
