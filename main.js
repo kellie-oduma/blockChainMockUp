@@ -1,14 +1,28 @@
-alert("Hi World, Welcome to my BlockChain MockUp");
+
 const gifId = document.getElementById("gif");
 const gif = document.querySelector(".gif");
 const gif2 = document.querySelector(".gif2");
 const gifBtn = document.querySelector(".gif-btn");
-// const wallet = document.querySelector(".wallet-body");
+const menu = document.querySelector(".menu");
+const closeSideBar = document.querySelector(".close-sideBar");
+const sideBar = document.querySelector(".sideBar");
 // const indicatorA = document.querySelector(".indicator-a");
 // const indicatorB = document.querySelector(".indicator-b");
 // const indicatorC = document.querySelector(".indicator-c");
 // const indicatorD = document.querySelector(".indicator-d");
 // const indicatorE = document.querySelector(".indicator-e");
+sideBar.style.display = "none";
+menu.addEventListener("click", () => {
+    if(sideBar.style.display === "none") {
+        sideBar.style.display = "grid";
+    }
+});
+
+closeSideBar.addEventListener("click", () => {
+    if( sideBar.style.display === "grid") {
+        sideBar.style.display = "none";
+    }
+});
 
 gifBtn.style.display = "none";
 
@@ -111,7 +125,7 @@ let exchangeUpdate = () => {
 } 
 
 
-// // EXPLORE SLIDER
+// EXPLORE SLIDER
 const exploreLeftControl = document.querySelector(".explore-prev");
 const exploreRightControl = document.querySelector(".explore-next");
 
